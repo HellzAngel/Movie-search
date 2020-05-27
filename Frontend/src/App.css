@@ -1,0 +1,42 @@
+       * {
+            margin: 0;
+            padding: 0;
+        }
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+        .imgbox2 {
+            display: grid;
+            max-width: 100%;
+            max-height: 100%;
+            
+        }
+        .center-fit {
+            max-width: 50%;
+            max-height: 50vh;
+            float: right;
+        }
+        .clearfix {
+            overflow: auto;
+            float: right;
+          }
+        #div1{
+            width:auto;
+            
+             }           
+            .f{
+            display:inline;
+            max-width:auto;
+            }
+            .imgbox3 {
+                display: grid;
+                max-width: 100%;
+                max-height: 100%;
+                
+            }
+            .center-fit2 {
+                max-width: 50%;
+                max-height: 50vh;
+                float: right;
+            }

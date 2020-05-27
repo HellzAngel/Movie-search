@@ -1,0 +1,26 @@
+{
+  "name": "msearch",
+  "version": "1.0.0",
+  "description": "Msearch mern",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix msearch",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix msearch",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "ananthu",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.1.0",
+    "config": "^3.3.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

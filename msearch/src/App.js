@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom' 
+import { BrowserRouter as Router} from 'react-router-dom' 
 import AppNavbar from './components/layouts/navbar'
-import Index from './components/layouts/Index'
-import View from './components/movi/View'
+// import Index from './components/layouts/Index'
+// import View from './components/movi/View'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Provider1} from './context';

@@ -18,7 +18,7 @@
     "config": "^3.3.2",
     "express": "^4.17.3",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.13",
+    "mongoose": "^5.13.15",
     "react-redux": "^8.0.1"
   },
   "devDependencies": {
